@@ -54,7 +54,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         Geocoder geocoder = new Geocoder(this, Locale.getDefault());
         List<Address> addresses = null;
         try {
-            addresses = geocoder.getFromLocation(37.4029933, -122.1815252, 1);
+            addresses = geocoder.getFromLocation( -9.5000000, 6.5000000, 1);
         } catch (IOException e) {
             e.printStackTrace();
         }
